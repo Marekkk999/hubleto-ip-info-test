@@ -8,7 +8,7 @@ if (!empty($error)): ?>
 
                 <!-- form - napis ip -->
 <form method="POST" action="/ipinfo">
-    <label>Zadajte IP adresu:</label><br>
+    <label>Type IP address:</label><br>
     <input type="text" name="ip" required>
     <br>
     <button type="submit">Search</button>
